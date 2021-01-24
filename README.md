@@ -12,8 +12,11 @@ gst-launch-1.0 videotestsrc ! videoconvert ! videoscale ! capsfilter caps="video
 
 **Demonstrate audio visualization in GStreamer. Take any audio file and generate any visualization of your choice.**
 
-* Enter Assignment2 directory
-* Run `gcc audio_visualisation.c -o audio_visualisation `pkg-config --cflags --libs gstreamer-1.0``
+* cd into Assignment2 directory
+* Run the following command 
+    ``` 
+    gcc audio_visualisation.c -o audio_visualisation `pkg-config --cflags --libs gstreamer-1.0`
+    ```
 * Run `./audio_visualisation `
 
 Choose a visualisation element from the following.
@@ -28,6 +31,6 @@ Choose a visualisation element from the following.
 
 **Python code to retrieve and display rtsp stream**
 
-* Enter Assignment3 directory
+* cd into Assignment3 directory
 * Populate `self.camlink` field in `main.py`
 * Run `python3 main.py`
