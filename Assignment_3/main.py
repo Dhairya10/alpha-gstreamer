@@ -12,7 +12,7 @@ class MainStream:
         self.camProcess = None
         self.cam_queue = None
         self.stopbit = None
-        self.camlink = 'rtsp://admin:wobot%40123@125.63.73.234:556/Streaming/Channels/301/'
+        self.camlink = 'Enter RTSP link'
         self.framerate = 6
     
     def startMain(self):
